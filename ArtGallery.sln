@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84542DFB-F81B-4BBE-AD1C-2635D39E95DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DCBE655-0E17-4278-B371-A54A90FEE4BA}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ArtGallery", "src\ArtGallery\ArtGallery.xproj", "{70C79C19-901B-4461-83E7-B09B63372CED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70C79C19-901B-4461-83E7-B09B63372CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C79C19-901B-4461-83E7-B09B63372CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C79C19-901B-4461-83E7-B09B63372CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C79C19-901B-4461-83E7-B09B63372CED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70C79C19-901B-4461-83E7-B09B63372CED} = {84542DFB-F81B-4BBE-AD1C-2635D39E95DC}
+	EndGlobalSection
+EndGlobal
